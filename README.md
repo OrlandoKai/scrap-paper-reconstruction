@@ -12,7 +12,6 @@ This project reconstructs fragmented grayscale images in two stages:
 ### 1) Prepare Python environment
 
 ```powershell
-cd D:\123pan\s\code\venv1\.venv\AILearning\model
 python -m pip install -r requirements.txt
 ```
 
@@ -24,7 +23,6 @@ python -m pip install -r requirements.txt
 ### 3) Run stage 1 (`scht.py`)
 
 ```powershell
-cd D:\123pan\s\code\venv1\.venv\AILearning\model\pinjie
 python scht.py
 ```
 
@@ -40,7 +38,6 @@ What happens:
 After exporting stage-1 cluster images to a folder (for example `tu3`):
 
 ```powershell
-cd D:\123pan\s\code\venv1\.venv\AILearning\model\pinjie
 python pinheng.py
 ```
 
@@ -67,13 +64,21 @@ What happens:
 - Similar pairwise-cost idea, but for top/bottom edges (vertical arrangement).
 - GUI supports manual corrections and lock-group constraints.
 
-## Screenshots (Placeholders)
+## ![image-20260416133616870](./image/image-20260416133616870.png)Screenshots (Placeholders)
 
-Replace these with real captures later.
+![image-20260416134034594](./image/image-20260416134034594.png)
 
-![Workflow Placeholder](docs/images/workflow-placeholder.png)
+![image-20260416134107844](./image/image-20260416134107844.png)
 
-![GUI Placeholder](docs/images/gui-placeholder.png)
+![image-20260416140008834](./image/image-20260416140008834.png)
+
+![image-20260416140028268](./image/image-20260416140028268.png)
+
+![image-20260416140623043](./image/image-20260416140623043.png)
+
+![image-20260416140712346](./image/image-20260416140712346.png)
+
+![result](./image/result.jpg)
 
 ## Project Layout
 
